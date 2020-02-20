@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,90');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300|Noto+Serif+KR&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Project name 'dAlimood's Website'
+Studied Until & Started To Coding on Oct.28.2018 AM 03:09
+Finishe on Nov.15.2018 PM 10:16
+Made by dAlimood */
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Raleway";
+}
+
+.icon{
+  padding: 0 6px 0 6px;
+}
+
+.menu{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: auto;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: table;
+  z-index: 3;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.menu .mainname{
+  padding: 0 15px 5px 0;
+  margin: 0  15px 10px 15px;
+  border-right: 1px solid white;
+  font-size: 1.4em;
+  text-decoration-style: none;
+  font-weight: bold;
+}
+
+.menu .mainname a{
+  display: table;
+  font-weight: bold;
+}
+
+.menu li{
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.4em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.smallmenu{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: auto;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: table;
+  z-index: 3;
+}
+
+.smallmenu a{
+  color: white;
+  text-decoration: none;
+}
+
+.smallmenu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.smallmenu .smallmainname{
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: 1px solid white;
+  font-size: 1em;
+  text-decoration-style: none;
+}
+
+.smallmenu .smallmainname a{
+  display: table;
+  font-weight: bold;
+}
+
+.smallmenu li{
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.minmenudiv{
+  position: fixed;
+  padding: 15px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+}
+
+.minmenu a{
+  color: white;
+  text-decoration: none;
+}
+
+.minmenu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.minmenu .minmainname a{
+  display: table;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width:2560px) and (min-width:1080px){
+  .smallmenu{
+    display: none;
+  }
+  .minmenu{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1080px) and (min-width:700px) {
+
+  .menu{
+    display: none;
+  }
+  .minmenu{
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .smallmenu{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+.one{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  background-color: white;
+  transition: transform 1.2s;
+  border-radius: 10px;
+}
+
+.one:hover{
+  transform: scale(1.02);
+}
+
+.oneimg{
+  margin-top: 35px;
+  width: 100%;
+  position: relative;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.one h1{
+  text-align: center;
+
+}
+
+.one p{
+  color: gray;
+  text-align: center;
+}
+
+.onebigtext{
+  font-family: 'Noto Serif KR', serif;
+}
+
+.onetext{
+  padding: 0 80px 35px 80px;
+
+}
+
+.twoboxone{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 180px;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 0px;
+  transition: transform 1.2s;
+  border-radius: 7px;
+}
+
+.twoboxone:hover{
+  transform: scale(1.025);
+}
+
+.twotextone{
+  padding: 20px 80px 35px 80px;
+}
+
+.twoimgone{
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+
+.twoboxtwo{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 180px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+  transition: transform 1.2s;
+  border-radius: 7px;
+}
+
+.twoboxtwo:hover{
+  transform: scale(1.025);
+}
+
+.twotexttwo{
+  padding: 20px 80px 35px 80px;
+}
+
+.twoimgtwo{
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: auto;
+  background-color: rgb(70, 70, 70);
+  left: 0;
+  text-align: center;
+  color: white;
+  padding: 25px auto 35px auto;
+  height: 300px;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("img/footerimg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -10;
+  font-family: 'Pacifico', cursive;
+  font-size: 7px;
+}
+
+.footer:before{
+   content: '';
+   display: block;
+   background-color: black;
+   opacity: 0.4;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: -5;
+}
+
+.footertext{
+  color: white;
+  text-decoration: none;
+}
+
+.footertext:hover{
+  color:#d5d5d5
+}
+
+@media screen and (max-width: 1270px) {
+  .twoboxone{
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .twoboxtwo{
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 400px;
+  }
+
+  .footer{
+    bottom: -2705px;
+  }
+}
+
+table{
+  font-size: 0.52rem;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}

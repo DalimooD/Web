@@ -1,0 +1,795 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,90');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300|Noto+Serif+KR&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Project name 'dAlimood's Website'
+Studied Until & Started To Coding on Oct.28.2018 AM 03:09
+Finishe on Nov.15.2018 PM 10:16
+Made by dAlimood */
+
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Raleway";
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.icon{
+  padding: 0 6px 0 6px;
+}
+
+.menu{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: auto;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: table;
+  z-index: 3;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.menu .mainname{
+  padding: 0 15px 5px 0;
+  margin: 0  15px 10px 15px;
+  border-right: 1px solid white;
+  font-size: 1.4em;
+  text-decoration-style: none;
+  font-weight: bold;
+}
+
+.menu .mainname a{
+  display: table;
+  font-weight: bold;
+}
+
+.menu li{
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.4em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.smallmenu{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: auto;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: table;
+  z-index: 3;
+}
+
+.smallmenu a{
+  color: white;
+  text-decoration: none;
+}
+
+.smallmenu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.smallmenu .smallmainname{
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: 1px solid white;
+  font-size: 1em;
+  text-decoration-style: none;
+}
+
+.smallmenu .smallmainname a{
+  display: table;
+  font-weight: bold;
+}
+
+.smallmenu li{
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.minmenudiv{
+  position: fixed;
+  padding: 15px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+}
+
+.minmenu a{
+  color: white;
+  text-decoration: none;
+}
+
+.minmenu a:hover{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+
+.minmenu .minmainname a{
+  display: table;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width:2560px) and (min-width:1080px){
+  .smallmenu{
+    display: none;
+  }
+  .minmenu{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1080px) and (min-width:700px) {
+
+  .menu{
+    display: none;
+  }
+  .minmenu{
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .smallmenu{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+.oneboxone{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxone:hover{
+  transform: scale(1.025);
+}
+
+.onetextone{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgone{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxtwo{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxtwo:hover{
+  transform: scale(1.025);
+}
+
+.onetexttwo{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgtwo{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxthree{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxthree:hover{
+  transform: scale(1.025);
+}
+
+.onetextthree{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgthree{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxfour{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxfour:hover{
+  transform: scale(1.025);
+}
+
+.onetextfour{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgfour{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxfive{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxfive:hover{
+  transform: scale(1.025);
+}
+
+.onetextfive{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgfive{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxfive-one{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxfive-one:hover{
+  transform: scale(1.025);
+}
+
+.onetextfive-one{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgfive-one{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxfive-two{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxfive-two:hover{
+  transform: scale(1.025);
+}
+
+.onetextfive-two{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgfive-two{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxsix{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxsix:hover{
+  transform: scale(1.025);
+}
+
+.onetextsix{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgsix{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxseven{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxseven:hover{
+  transform: scale(1.025);
+}
+
+.onetextseven{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgseven{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxeight{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxeight:hover{
+  transform: scale(1.025);
+}
+
+.onetexteight{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgeight{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxnine{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxnine:hover{
+  transform: scale(1.025);
+}
+
+.onetextnine{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgnine{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxten{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  top: -40px;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxten:hover{
+  transform: scale(1.025);
+}
+
+.onetextten{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgten{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxtenone{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxtenone:hover{
+  transform: scale(1.025);
+}
+
+.onetexttenone{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgtenone{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxtentwo{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 140px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  right: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxtentwo:hover{
+  transform: scale(1.025);
+}
+
+.onetexttentwo{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgtentwo{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.oneboxtenthree{
+  display: inline-block;
+  width: 35%;
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  z-index: 1;
+  position: relative;
+  left: 50px;
+  transition: transform 0.5s;
+  border-radius: 12px;
+}
+
+.oneboxtenthree:hover{
+  transform: scale(1.025);
+}
+
+.onetexttenthree{
+  padding: 20px 80px 35px 80px;
+  text-align: center;
+}
+
+.oneimgtenthree{
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+  .footer{
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+    background-color: rgb(70, 70, 70);
+    left: 0;
+    text-align: center;
+    color: white;
+    padding: 30px auto 35px auto;
+    height: 300px;
+    font-family: 'Pacifico', cursive;
+    background-image: url(footerimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -10;
+    font-size: 7px;
+  }
+
+  .footertext{
+    color: white;
+  }
+
+  .footertext:hover{
+    color:#d5d5d5
+  }
+
+  .footer:before{
+     content: '';
+     display: block;
+     background-color: black;
+     opacity: 0.4;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     z-index: -5;
+  }
+
+  @media screen and (max-width: 1270px) {
+    .oneboxone{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxtwo{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxthree{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxfour{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxfive{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxfive-one{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxfive-two{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxsix{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxseven{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxeight{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxnine{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxten{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxtenone{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxtentwo{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+    .oneboxtenthree{
+      display: block;
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+      left: 0;
+    }
+
+    .footer{
+      display: none;
+    }
+
+  }
