@@ -8,14 +8,13 @@
 Studied Until & Started To Coding on Oct.28.2018 AM 03:09
 Finishe on Nov.15.2018 PM 10:16
 Made by dAlimood */
-
-body{
-    background-color: #f2f2f2;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-family: "Raleway";
+body {
+  background-color: #f2f2f2;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Raleway";
 }
 
-video{
+video {
   position: fixed;
   float: left;
   top: -5px;
@@ -24,23 +23,23 @@ video{
   z-index: -50;
 }
 
-.menu{
+.menu {
   z-index: 3;
   position: fixed;
   width: 100%;
 }
 
-.menu a{
+.menu a {
   color: white;
   text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: #A4A4A4;
   text-decoration: none;
 }
 
-.menu ul{
+.menu ul {
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -53,7 +52,7 @@ video{
   margin: 19px;
 }
 
-.menu li{
+.menu li {
   list-style: none;
   display: table-cell;
   margin-left: 10px;
@@ -65,23 +64,23 @@ video{
   white-space: nowrap;
 }
 
-.smallmenu{
+.smallmenu {
   z-index: 3;
   position: fixed;
   width: 100%;
 }
 
-.smallmenu a{
+.smallmenu a {
   color: white;
   text-decoration: none;
 }
 
-.smallmenu a:hover{
+.smallmenu a:hover {
   color: #A4A4A4;
   text-decoration: none;
 }
 
-.smallmenu ul{
+.smallmenu ul {
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -94,7 +93,7 @@ video{
   margin: 19px;
 }
 
-.smallmenu li{
+.smallmenu li {
   list-style: none;
   display: table-cell;
   margin-left: 10px;
@@ -106,7 +105,7 @@ video{
   white-space: nowrap;
 }
 
-.text{
+.text {
   color: white;
   font-size: 2.3em;
   position: absolute;
@@ -121,7 +120,7 @@ video{
   transition: transform 1s;
 }
 
-.text:hover{
+.text:hover {
   color: #e4b332;
   text-decoration: none;
   transform: scale(1.05);
@@ -143,92 +142,95 @@ video{
   color: #c6e2ff;
   font-family: 'Yeon Sung', cursive;
   -webkit-animation: neon .08s ease-in-out infinite alternate;
-          animation: neon .08s ease-in-out infinite alternate;
+  animation: neon .08s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes neon {
   from {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
-    0 0 30px rgba(202, 228, 225, 0.34),
-    0 0 12px rgba(30, 132, 242, 0.52),
-    0 0 21px rgba(30, 132, 242, 0.92),
-    0 0 34px rgba(30, 132, 242, 0.78),
-    0 0 54px rgba(30, 132, 242, 0.92);
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92),
+      0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
   }
+
   to {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
-    0 0 30px rgba(202, 228, 225, 0.42),
-    0 0 12px rgba(30, 132, 242, 0.58),
-    0 0 22px rgba(30, 132, 242, 0.84),
-    0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
   }
 }
 
 @keyframes neon {
   from {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
-    0 0 30px rgba(202, 228, 225, 0.34),
-    0 0 12px rgba(30, 132, 242, 0.52),
-    0 0 21px rgba(30, 132, 242, 0.92),
-    0 0 34px rgba(30, 132, 242, 0.78),
-    0 0 54px rgba(30, 132, 242, 0.92);
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92),
+      0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
   }
+
   to {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
-    0 0 30px rgba(202, 228, 225, 0.42),
-    0 0 12px rgba(30, 132, 242, 0.58),
-    0 0 22px rgba(30, 132, 242, 0.84),
-    0 0 38px rgba(30, 132, 242, 0.88),
-    0 0 60px #1e84f2;
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px #1e84f2;
   }
 }
 
-@media screen and (max-width:2560px) and (min-width:1080px){
-  .smallmenu{
+@media screen and (max-width:2560px) and (min-width:1080px) {
+  .smallmenu {
     display: none;
   }
-  .minmenu{
+
+  .minmenu {
     display: none;
   }
 }
 
 @media screen and (max-width:1080px) and (min-width:700px) {
-
-  .menu{
-    display: none;
-  }
-  .minmenu{
+  .menu {
     display: none;
   }
 
-  .text{
+  .minmenu {
+    display: none;
+  }
+
+  .text {
     font-size: 1.7em;
   }
 
-  .sign__word{
+  .sign__word {
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width:700px) {
-  .smallmenu{
-    display: none;
-  }
-  .menu{
+  .smallmenu {
     display: none;
   }
 
-  .text{
+  .menu {
     display: none;
   }
 
-  .sign__word{
+  .text {
+    display: none;
+  }
+
+  .sign__word {
     font-size: 1.5rem;
   }
 }
 
-
-.footer{
+.footer {
   text-align: center;
   top: 1100px;
 }

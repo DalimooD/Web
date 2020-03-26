@@ -8,24 +8,22 @@
 Studied Until & Started To Coding on Oct.28.2018 AM 03:09
 Finishe on Nov.15.2018 PM 10:16
 Made by dAlimood */
-
-
-body{
-    background-color: #f2f2f2;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-family: "Raleway";
+body {
+  background-color: #f2f2f2;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Raleway";
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.icon{
+.icon {
   padding: 0 6px 0 6px;
 }
 
-.menu{
+.menu {
   width: 100%;
   text-align: center;
   height: auto;
@@ -38,31 +36,31 @@ a{
   z-index: 3;
 }
 
-.menu a{
+.menu a {
   color: white;
   text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: #A4A4A4;
   text-decoration: none;
 }
 
-.menu .mainname{
+.menu .mainname {
   padding: 0 15px 5px 0;
-  margin: 0  15px 10px 15px;
+  margin: 0 15px 10px 15px;
   border-right: 1px solid white;
   font-size: 1.4em;
   text-decoration-style: none;
   font-weight: bold;
 }
 
-.menu .mainname a{
+.menu .mainname a {
   display: table;
   font-weight: bold;
 }
 
-.menu li{
+.menu li {
   list-style: none;
   text-align: center;
   display: inline;
@@ -73,7 +71,7 @@ a{
   padding-right: 5px;
 }
 
-.smallmenu{
+.smallmenu {
   width: 100%;
   text-align: center;
   height: auto;
@@ -86,17 +84,17 @@ a{
   z-index: 3;
 }
 
-.smallmenu a{
+.smallmenu a {
   color: white;
   text-decoration: none;
 }
 
-.smallmenu a:hover{
+.smallmenu a:hover {
   color: #A4A4A4;
   text-decoration: none;
 }
 
-.smallmenu .smallmainname{
+.smallmenu .smallmainname {
   padding-left: 5px;
   padding-right: 15px;
   margin-left: 15px;
@@ -106,12 +104,12 @@ a{
   text-decoration-style: none;
 }
 
-.smallmenu .smallmainname a{
+.smallmenu .smallmainname a {
   display: table;
   font-weight: bold;
 }
 
-.smallmenu li{
+.smallmenu li {
   list-style: none;
   text-align: center;
   display: inline;
@@ -122,7 +120,7 @@ a{
   padding-right: 5px;
 }
 
-.minmenudiv{
+.minmenudiv {
   position: fixed;
   padding: 15px;
   top: 0px;
@@ -132,51 +130,53 @@ a{
   background-color: black;
 }
 
-.minmenu a{
+.minmenu a {
   color: white;
   text-decoration: none;
 }
 
-.minmenu a:hover{
+.minmenu a:hover {
   color: #A4A4A4;
   text-decoration: none;
 }
 
-.minmenu .minmainname a{
+.minmenu .minmainname a {
   display: table;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-@media screen and (max-width:2560px) and (min-width:1080px){
-  .smallmenu{
+@media screen and (max-width:2560px) and (min-width:1080px) {
+  .smallmenu {
     display: none;
   }
-  .minmenu{
+
+  .minmenu {
     display: none;
   }
 }
 
 @media screen and (max-width:1080px) and (min-width:700px) {
-
-  .menu{
+  .menu {
     display: none;
   }
-  .minmenu{
+
+  .minmenu {
     display: none;
   }
 }
 
 @media screen and (max-width:700px) {
-  .smallmenu{
+  .smallmenu {
     display: none;
   }
-  .menu{
+
+  .menu {
     display: none;
   }
 }
 
-.oneboxone{
+.oneboxone {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -191,21 +191,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxone:hover{
+.oneboxone:hover {
   transform: scale(1.025);
 }
 
-.onetextone{
+.onetextone {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgone{
+.oneimgone {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxtwo{
+.oneboxtwo {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -220,21 +220,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxtwo:hover{
+.oneboxtwo:hover {
   transform: scale(1.025);
 }
 
-.onetexttwo{
+.onetexttwo {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgtwo{
+.oneimgtwo {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxthree{
+.oneboxthree {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -249,21 +249,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxthree:hover{
+.oneboxthree:hover {
   transform: scale(1.025);
 }
 
-.onetextthree{
+.onetextthree {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgthree{
+.oneimgthree {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxfour{
+.oneboxfour {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -278,21 +278,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxfour:hover{
+.oneboxfour:hover {
   transform: scale(1.025);
 }
 
-.onetextfour{
+.onetextfour {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgfour{
+.oneimgfour {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxfive{
+.oneboxfive {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -307,21 +307,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxfive:hover{
+.oneboxfive:hover {
   transform: scale(1.025);
 }
 
-.onetextfive{
+.onetextfive {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgfive{
+.oneimgfive {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxfive-one{
+.oneboxfive-one {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -336,21 +336,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxfive-one:hover{
+.oneboxfive-one:hover {
   transform: scale(1.025);
 }
 
-.onetextfive-one{
+.onetextfive-one {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgfive-one{
+.oneimgfive-one {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxfive-two{
+.oneboxfive-two {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -365,21 +365,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxfive-two:hover{
+.oneboxfive-two:hover {
   transform: scale(1.025);
 }
 
-.onetextfive-two{
+.onetextfive-two {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgfive-two{
+.oneimgfive-two {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxsix{
+.oneboxsix {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -394,21 +394,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxsix:hover{
+.oneboxsix:hover {
   transform: scale(1.025);
 }
 
-.onetextsix{
+.onetextsix {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgsix{
+.oneimgsix {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxseven{
+.oneboxseven {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -423,21 +423,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxseven:hover{
+.oneboxseven:hover {
   transform: scale(1.025);
 }
 
-.onetextseven{
+.onetextseven {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgseven{
+.oneimgseven {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxeight{
+.oneboxeight {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -452,21 +452,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxeight:hover{
+.oneboxeight:hover {
   transform: scale(1.025);
 }
 
-.onetexteight{
+.onetexteight {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgeight{
+.oneimgeight {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxnine{
+.oneboxnine {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -481,21 +481,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxnine:hover{
+.oneboxnine:hover {
   transform: scale(1.025);
 }
 
-.onetextnine{
+.onetextnine {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgnine{
+.oneimgnine {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxten{
+.oneboxten {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -511,21 +511,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxten:hover{
+.oneboxten:hover {
   transform: scale(1.025);
 }
 
-.onetextten{
+.onetextten {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgten{
+.oneimgten {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxtenone{
+.oneboxtenone {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -540,21 +540,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxtenone:hover{
+.oneboxtenone:hover {
   transform: scale(1.025);
 }
 
-.onetexttenone{
+.onetexttenone {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgtenone{
+.oneimgtenone {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxtentwo{
+.oneboxtentwo {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -569,21 +569,21 @@ a{
   border-radius: 12px;
 }
 
-.oneboxtentwo:hover{
+.oneboxtentwo:hover {
   transform: scale(1.025);
 }
 
-.onetexttentwo{
+.onetexttentwo {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgtentwo{
+.oneimgtentwo {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-.oneboxtenthree{
+.oneboxtenthree {
   display: inline-block;
   width: 35%;
   background-color: white;
@@ -598,198 +598,211 @@ a{
   border-radius: 12px;
 }
 
-.oneboxtenthree:hover{
+.oneboxtenthree:hover {
   transform: scale(1.025);
 }
 
-.onetexttenthree{
+.onetexttenthree {
   padding: 20px 80px 35px 80px;
   text-align: center;
 }
 
-.oneimgtenthree{
+.oneimgtenthree {
   width: 100%;
   border-radius: 12px 12px 0 0;
 }
 
-  .footer{
-    width: 100%;
-    position: absolute;
-    bottom: auto;
-    background-color: rgb(70, 70, 70);
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: auto;
+  background-color: rgb(70, 70, 70);
+  left: 0;
+  text-align: center;
+  color: white;
+  padding: 30px auto 35px auto;
+  height: 300px;
+  font-family: 'Pacifico', cursive;
+  background-image: url(footerimg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -10;
+  font-size: 7px;
+}
+
+.footertext {
+  color: white;
+}
+
+.footertext:hover {
+  color: #d5d5d5
+}
+
+.footer:before {
+  content: '';
+  display: block;
+  background-color: black;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -5;
+}
+
+@media screen and (max-width: 1270px) {
+  .oneboxone {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
     left: 0;
-    text-align: center;
-    color: white;
-    padding: 30px auto 35px auto;
-    height: 300px;
-    font-family: 'Pacifico', cursive;
-    background-image: url(footerimg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -10;
-    font-size: 7px;
   }
 
-  .footertext{
-    color: white;
+  .oneboxtwo {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
   }
 
-  .footertext:hover{
-    color:#d5d5d5
+  .oneboxthree {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
   }
 
-  .footer:before{
-     content: '';
-     display: block;
-     background-color: black;
-     opacity: 0.4;
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     z-index: -5;
+  .oneboxfour {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
   }
 
-  @media screen and (max-width: 1270px) {
-    .oneboxone{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxtwo{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxthree{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxfour{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxfive{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxfive-one{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxfive-two{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxsix{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxseven{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxeight{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxnine{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxten{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxtenone{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxtentwo{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-    .oneboxtenthree{
-      display: block;
-      position: relative;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px;
-      left: 0;
-    }
-
-    .footer{
-      display: none;
-    }
-
+  .oneboxfive {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
   }
+
+  .oneboxfive-one {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxfive-two {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxsix {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxseven {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxeight {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxnine {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxten {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxtenone {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxtentwo {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .oneboxtenthree {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    left: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+}
