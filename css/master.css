@@ -15,13 +15,12 @@ body {
 }
 
 video {
-  position: fixed;
-  float: left;
-  top: -5px;
-  left: 0;
-  width: 100%;
-  z-index: -50;
-}
+        position: fixed; right: 0; bottom: 0;
+        min-width: 100%; min-height: 100%;
+        width: auto; height: auto; z-index: -100;
+        background: url(Ferris_Wheel.jpg) no-repeat;
+        background-size: cover;
+    }
 
 .menu {
   z-index: 3;
@@ -109,8 +108,8 @@ video {
   color: white;
   font-size: 2.3em;
   position: absolute;
-  bottom: 30px;
-  left: 40px;
+  bottom: 35px;
+  left: 45px;
   writing-mode: tb-rl;
   border-right: 1px solid white;
   padding-top: 50px;
@@ -121,13 +120,18 @@ video {
 }
 
 .text:hover {
-  color: #e4b332;
+  color: #c5deff;
   text-decoration: none;
   transform: scale(1.05);
 }
 
 .sign {
+  position: fixed;
+  left: 0px;
+  top: -150px;
+  width: 100%;
   min-height: 100%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,6 +147,11 @@ video {
   font-family: 'Yeon Sung', cursive;
   -webkit-animation: neon .08s ease-in-out infinite alternate;
   animation: neon .08s ease-in-out infinite alternate;
+}
+
+.icon{
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 @-webkit-keyframes neon {
@@ -231,6 +240,9 @@ video {
 }
 
 .footer {
+  position: fixed;
+  left: 0px;
+  bottom: 70px;
+  width: 100%;
   text-align: center;
-  top: 1100px;
 }
