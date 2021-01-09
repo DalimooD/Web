@@ -242,7 +242,7 @@ video {
 .footer {
   position: fixed;
   left: 0px;
-  bottom: 70px;
+  bottom: 70px; 
   width: 100%;
   text-align: center;
 }
